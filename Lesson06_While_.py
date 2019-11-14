@@ -1,9 +1,7 @@
-x = int(input())
-while x <= 10:  # Чтобы прервать цикл while досрочно исп инструкцию break
+for x  in range(1,100,1): # start stop шаг
+    if x <5 :
+        print(x, 'Дошли до 5') # доходим до 5 продолжаем
+        continue
     print(x)
-    x += 1
-    if x >= 10:
-        print("Вышли из цикла")#
+    if x >= 10: # доходим до 8 выходим
         break
-else:
-    print('Finish')
