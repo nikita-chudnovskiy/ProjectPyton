@@ -7,8 +7,7 @@ while running:
         running = False
     elif age < 18:
         print('Мал еще')
-
     else:
         print('Иди за военником ')
 else:
-    print('Служу Росии ')
+    print('Служу Росии')
