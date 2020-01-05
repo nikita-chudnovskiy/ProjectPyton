@@ -8,7 +8,7 @@ a, b = map(int, input().split())
 print(a + b)
 
 print(1, 2, 3, sep=',')
-print(4, 5, sep='???', end=', ')
+print(4, 5, sep='???', end=', ') # end не переводит на следующую строку 6
 print(6, sep='123')  # Нужно как минимум 2 значения
 
 rub = 10
