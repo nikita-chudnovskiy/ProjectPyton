@@ -26,13 +26,14 @@ print(s.rjust(10,'0')) # меняем значение с лева на прав
 print(s.ljust(10,'-')) # c права на лево
 
 d = 'ivanov ivan ivanovich'
-print(d.split())
+print(d.split())            # Данный метод разбивает строку по пробелу
 print(len(d.split()))
-print(d.split('n'))
-w = '234, 234, 234'.split(',')
+print(d.split('n'))         # Разбить строку по букве n
+w = '23, 24, 45, 47'.split(',') # разбить список запятой
 print(w)
 print('='.join(w))
-print('.'.join(d).split())
+print('.'.join(d.split()))# разделить список через .
+print(','.join(d).split()) # разделить каждый элемент через ,
 
 a ='Hello   '
 b = '   12'
