@@ -37,9 +37,10 @@ print(','.join(d).split()) # разделить каждый элемент че
 
 a ='Hello   '
 b = '   12'
-print(a.rstrip())
-print(b.lstrip())
-print(a.strip())
+c = 'abcd    '
+print(a.rstrip())   # метод удаляет пробелы и перенос на новые строки
+print(b.lstrip()) # удаляет слева
+print(c.strip())  # удаляет справа
 
-a = input().replace('e','a').upper()
+a = input().replace('e','k').upper() # заменить e на k
 print(a)
