@@ -5,14 +5,13 @@ else:
     print('No')
 
 
-
-a = input()  # str
-b = int(input())  # int
-c = float(input())  # float
+a = input('введите число')  # str
+b = int(input('введите число'))  # int
+c = float(input('введите число'))  # float
 
 print(int(a) + b + int(c))
 
-a, b = map(int, input().split())
+a, b = map(int, input('Введите 2 числа ').split())
 print(a + b)
 
 print(1, 2, 3, sep=',')
