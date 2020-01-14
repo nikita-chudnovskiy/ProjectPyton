@@ -4,10 +4,11 @@
 # Входные 3 и 4   Ввыходные 5.0
 import math
 a,b = map(int,input().split())
-c = pow(a,2)+pow(b,2)
+c =  math.sqrt((a**2)+ (b**2))
 #c = c **0.5
-c = math.sqrt(c)
 print(c)
+
+
 
 # Катеты ищем a
 b,c = map(int,input().split())
