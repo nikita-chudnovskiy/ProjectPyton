@@ -1,8 +1,11 @@
-n = 'nndrey'
-##print(n[0:])
-##print(len(n))
-#print(n[0:6])
-#n = n[0:0]+'E'+n[1:]
+import locale
+import datetime
+data = datetime.datetime.today()
+print(data)
 
-print(n.find('n')) #
-print(n.rfind('n')) # Ищем сколько раз
+
+
+locale.setlocale(locale.LC_ALL, "ru") # задаем локаль для вывода даты на русском языке
+
+today = datetime.datetime.today().strftime("%A, %c") #
+print(today)
