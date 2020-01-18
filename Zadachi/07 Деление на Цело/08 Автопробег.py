@@ -2,6 +2,7 @@
 #
 # Входные данные
 # Программа получает на вход числа n и m (целые, положительные).
+# Входные 700 и 750 Вых 2, 700 и 2100 вых 3
 import math
-za_1,t_dlinna = map(int,input().split())
-print(math.ceil(t_dlinna/za_1))
+n_1,t_rastoyanie = map(int,input().split())
+print( math.ceil(t_rastoyanie/n_1)) # match.ceil округление в большую сторону
