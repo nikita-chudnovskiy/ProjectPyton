@@ -38,5 +38,5 @@ print(a.rstrip())   # метод удаляет пробелы и перенос
 print(b.lstrip()) # удаляет слева
 print(c.strip())  # удаляет справа
 
-a = input().replace('e','k').upper() # заменить e на k
+a = input().replace('e','k').upper() # заменить e на k методы можно вызывать цепочками
 print(a)
