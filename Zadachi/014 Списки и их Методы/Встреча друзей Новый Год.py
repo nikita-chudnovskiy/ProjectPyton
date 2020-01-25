@@ -14,6 +14,7 @@
 
 # входные 7 1 4
 # выходные 6
+
 s = list(map(int, input().split()))
 print(max(s)-min(s))
 
