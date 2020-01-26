@@ -7,7 +7,6 @@ else:
     print(b)
 
 
-
 # Вывести какое число
 a = int(input())
 if a%2 == 0:
