@@ -10,7 +10,7 @@ while p != password and count < 3:
     if count == 3:
         if p == password:
             continue
-            print("Использованы все попытки.")
+        print("Использованы все попытки.")
         break
 else:
     print("Вы ввели правильный пароль.")
