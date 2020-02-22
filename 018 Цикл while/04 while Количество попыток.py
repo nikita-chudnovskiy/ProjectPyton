@@ -5,7 +5,7 @@ password = "qwerty"
 count = 1
 while p != password and count < 3:
     count += 1
-    p = input("Введите пароль: ")
+    p = input("повторите ввод :")
     if count == 3:
         if p == password:
             continue
