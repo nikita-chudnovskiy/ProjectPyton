@@ -7,6 +7,9 @@ while a !=0:
 # Тут программа не закончится пока не введете строку полностью совпадающую с той, которая хранится в переменной password.
 guest =input('введите пасс')
 password = 'qwerty'
+count =1
 while guest != password:
     print('Не правильный ввод')
     guest=input()
+    count +=1
+print('Вы потратили',count,'попыток')
