@@ -1,5 +1,5 @@
 # А эта программа будет заставлять вводить пользователя числа, пока он не введет ноль.
-a = int(input())
+a = int(input('введите 0'))
 while a !=0:
     print('Повторите ввод')
     a = int(input())
@@ -8,5 +8,5 @@ while a !=0:
 guest =input('введите пасс')
 password = 'qwerty'
 while guest != password:
-    print('введите пасс')
+    print('Не правильный ввод')
     guest=input()
