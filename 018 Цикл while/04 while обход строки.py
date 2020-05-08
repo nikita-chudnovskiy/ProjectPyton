@@ -1,3 +1,8 @@
+a ='privet'
+while len(a)>0:
+    print(a[0])
+    a=a[1:]
+
 # Обход строки
 a = '1ad23,236sdsRTY'
 while len(a)>0:
