@@ -6,3 +6,10 @@ while len(a)>0:
         print(a[0],end =' ')
     a=a[1:]
 
+print()
+
+# Обход списка
+a = [102,'првиет']
+while len(a)>0:
+    print(a[0],end =' ')
+    a=a[1:]
