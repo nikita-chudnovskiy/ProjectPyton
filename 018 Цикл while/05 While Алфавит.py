@@ -29,7 +29,7 @@ while i <=25:
     test.append(alfa)
     alfa =chr(ord(alfa)+1)
     i+=1
-#   print(test) будет добавлять и выводить по 1 букые
+#   print(test) будет добавлять и выводить по 1 букве
 print(test) # Вывод уже заполненного списка
 
 
