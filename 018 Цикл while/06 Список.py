@@ -8,8 +8,14 @@ while len(a)>0:
 
 print()
 
-a =[2,3]
+a =[2,3,'првиет']
 i =0
 while len(a)>i:
-    print(a[i])
+    print(a[i],end=' ')
     i+=1
+print()
+
+b=[2,3,4]
+while len(b)>0:
+    print(b[0],end=' ')
+    b =b[1:]
