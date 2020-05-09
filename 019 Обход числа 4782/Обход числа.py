@@ -1,10 +1,8 @@
 """c = 4782
-kol =0
-while c>0:
+ while c>0:
     print(c%10)
     kol = kol+1
     c = c//10
-
 print('Всего цифр: ', kol)"""
 
 x =int(input())
@@ -32,3 +30,11 @@ print('Сумма всех цифр: ', s)
 print('Произведение всех цифр ', pr)
 print('max ', maxim)
 print('min ', minn)
+
+# Перевод в 2 систему изчисления
+z =int(input())
+while z>0:
+    last = z%2 # тут 2 если в 10 то 10
+    print(last)
+    z =z//10
+
