@@ -1,6 +1,8 @@
-a=[]
+n = int(input())
 i=1
-while i<=10:
-     a.append(+i)
-     print(a)
+a=[]
+while n>=i//2:
+     if n%i==0:
+          a.append(i)
      i+=1
+print(a)
