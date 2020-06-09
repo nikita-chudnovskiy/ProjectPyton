@@ -7,7 +7,7 @@ while i<=100:
     i+=1
 
 
-while True:
+while True:  # бесконечный цикл пока не выйдем
     n = input()
     if n=='exit':
         break
