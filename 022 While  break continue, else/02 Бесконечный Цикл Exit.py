@@ -7,3 +7,9 @@ while True:
 
 
 
+while True:
+    a= input()
+    if len(a)<=5:
+        print('мало')
+        continue
+    break
