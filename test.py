@@ -1,17 +1,13 @@
-p = input('Введите пароль')
-password ='qwerty'
-count = 1
+import speech_recognition as sr
 
-while password !=p and count <3:
-    count+=1
-    print('попытка',count)
-    p = input()
-    if count == 3:
-        if p == password:
-            continue
-        print("Использованы все попытки.")
-        break
-else:
-    print('Верно, кол попыток',count)
+record = sr.Recognizer()
+microphone = sr.Microphone()
 
+while True:
+    with microphone as source:
+        record.adjust_for_ambient_noise(source)
+        audio = record.listen(source)
 
+        result = record.recognize_google(audio, language='ru-RU')
+        result = result.lower()
+        print(format(result))

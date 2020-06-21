@@ -17,7 +17,7 @@ if sm>ss:
 elif sm<ss:
     print('Крис победил')
 else:
-    print('frend')
+    print('Ничья')
 
 
 
