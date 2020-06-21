@@ -8,7 +8,7 @@ for i in range(n):
     sm+=mishka
     ss+=cris
     print('Кубики Мишки',mishka,end='  ')
-    print('Кубики Сильвера',cris,end=' ')
+    print('Кубики Криса',cris)
 print()
 print('Числа мишки',sm)
 print('Числа Крис',ss)
