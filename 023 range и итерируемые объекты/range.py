@@ -22,6 +22,9 @@ print(r[1])# Итерируемый объект это такой объект 
 
 n =iter([43,True,22]) # Список этерируемы
 print(next(n))
+print(next(n))
+print(next(n))
+
 n = iter('ADA')
 print(next(n))
 print(next(n))
