@@ -6,3 +6,12 @@ t = ''
 for i in range(len(a)):
         if i%3!=0:      # элементы в данном случае 0,1,2,3,4,5,6 Если элемент делится на 3 B и остаток 0
             print(a[i]) # то выводим элемент списка
+
+
+languages = ['C++','Java','Python']
+for i in languages:
+    print(i)
+
+n=[0,0,0,0,0]
+for i in range(len(n)):
+    print(i+1,n[i])
