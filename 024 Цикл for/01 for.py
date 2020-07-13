@@ -1,8 +1,9 @@
 for i in range(3):
-    print('inside', i)
-    print('hello')
+    print(i)
+    i='outside'    #  Цикл for помнит какое мы брали значение на каждом проходе цикла  ( 0,1,2)
+                   # Важно будет принимать последнее значение
+print('Outside',i) # последнее значение
 
-print('Outside',i) # последнее число
 
 
 for i in range(50):
