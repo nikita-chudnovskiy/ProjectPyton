@@ -59,6 +59,7 @@ for i in s: # обойти по значениям
         print(i,'smol')
     elif  i>='A'and i<='Z':
         print(i,'Big')
+         
 
 
 
