@@ -26,6 +26,7 @@ k=[]
 for i in text.split():
     if letter in i.lower():
         print(i)
-
+        k.append(i)
+print(k)
 
 
