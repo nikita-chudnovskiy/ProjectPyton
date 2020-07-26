@@ -11,8 +11,7 @@
 
 #a
 letter = input()
-text = 'Mary had a little lamb.'
-k=[]
+text = input()
 for i in text.split():
     if letter in i.lower():
         print(i)
@@ -20,13 +19,10 @@ for i in text.split():
 
 #e
 
-letter = input()
-text = 'Actions speak louder than words'
-k=[]
+e = input()
+text = input()
 for i in text.split():
-    if letter in i.lower():
+    if e in i.lower():
         print(i)
-        k.append(i)
-print(k)
 
 
