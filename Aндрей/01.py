@@ -1,9 +1,10 @@
-a='андрей'
-b='папа'
-print(a,b)
+import random
 
+a =[]
 
-
+for i in range(5):
+   a.append(random.randint(2,10))
+print(a)
 
 
 
