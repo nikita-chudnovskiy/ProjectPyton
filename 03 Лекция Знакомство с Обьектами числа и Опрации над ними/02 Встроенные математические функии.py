@@ -16,6 +16,8 @@ print(round(456,-2))    # Округление к 100
 
 # Округление # match.floor(), math.ceil(), math.ceil()
 
+# Если нажать math.  то выведится весь список функций
+
 import math
 a =5.65
 print('Округление')
