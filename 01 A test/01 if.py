@@ -11,7 +11,7 @@ def check(password):
     print(kool_s)
 
 check(password)
-
+1
 
 
 
