@@ -1,13 +1,15 @@
 
 # Типы переменных
-a = 10
-b =2.0
-c = 'hi'
-boolean = 0
-print(type(a)) # Тип int, integer
-print(type(b))
-print(type(c))
-print(type(a>b))
 
-b = int(b)
-print('изменили тип float',type(b))
+name = 'Anna'           # str
+age = 10                # int
+height =1.67            # float
+is_maile = True         # bool
+
+
+print(type(name),type(age),type(height),type(is_maile),sep =' # ') # sep разделитель
+print(type(name),type(age),type(height),type(is_maile),end =',')  # чтобы Анна не перенес на другую строчку
+print(name)
+
+
+
