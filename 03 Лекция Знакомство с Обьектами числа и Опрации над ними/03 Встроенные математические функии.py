@@ -55,4 +55,4 @@ x = 'spamm'
 print(x)
 x += 'egg'
 print(x)
-print(len(x)) # len() узнать длинну строки
+print(len(x)) # len() узнать длинну строки #
