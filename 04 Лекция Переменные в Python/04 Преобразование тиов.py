@@ -1,7 +1,9 @@
 # 120 р одна упаковка стоит 18
-n = 120
-itog = n/18
 
-print('Уп можно купить',itog)
-itog = int(itog)                # преобразовали к int
-print('Уп можно купить',itog)
+skolko_deneg = int(input())
+mogno_kupit = skolko_deneg/18
+
+print('Можно купить на %s'%(skolko_deneg),int(mogno_kupit))
+
+
+
