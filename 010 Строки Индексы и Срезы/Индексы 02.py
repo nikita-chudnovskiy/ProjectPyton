@@ -16,3 +16,6 @@ print(password[2:-1])
 
 password=password[-1]+'nnn'+password
 print(password)
+
+a = 'oajdoiajdioajfdioajfij'
+print(len(a))  # длинна
