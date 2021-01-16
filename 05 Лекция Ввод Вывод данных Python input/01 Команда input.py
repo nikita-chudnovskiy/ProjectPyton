@@ -1,18 +1,10 @@
 # 13.01.2020
-# Найти Периметр
-print('Найти Периметр')
-a = input('введите число')        # str Ввести строку Строку
-b = int(input('введите число'))   # int  Целое Число ВАжно !
-c = float(input('введите число')) # float Вещественное число
-perimetr=(int(a) + b + int(c)) # Преобразование типов к int
-print(perimetr)
 
-# 2 Вариант
-a,b,c= map(int,input('3 числа').split())
-perimetr = a+b+c
-print(perimetr)
+a = input()                                        # str Ввести строку Строку
 
-print(sum(map(int, input('Сумма всех введенных чисел ').split())))
+a,b,c= map(int,input().split())                    #  ввести 3 числа
+
+print(sum(map(int, input('Сумма всех').split())))  # вывести сумму
 
 
 
