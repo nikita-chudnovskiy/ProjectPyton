@@ -27,8 +27,8 @@ my_wife = 'Юлия'
 
 car = my_favorite = rav4 = 'Тойота RAW4'
 
-my_car, my_wife = 'Тойота RAW4', 'Юлия'
-print(my_car, my_wife)
+my_car, wife = 'Тойота RAW4', 'Юлия'
+print(my_car, wife)
 
 x, y, z = 10, 20, 30
 print(x, y, z)
