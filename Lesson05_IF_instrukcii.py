@@ -20,7 +20,8 @@ if True : # 2 == 2
     print('верно.{0:_^11}'.format(years))
 
 
-
+print('hi')
+print(he)
 
 
 		 
