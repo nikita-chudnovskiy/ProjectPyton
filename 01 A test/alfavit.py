@@ -13,3 +13,4 @@ while a <=ord('z'):
     a+=1
 
 
+print(list(range(5)))
