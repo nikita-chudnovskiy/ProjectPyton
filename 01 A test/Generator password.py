@@ -5,3 +5,4 @@ for i in range(5):
     b = randint(ord('A'),ord('z'))
     c= randint(ord('#'),ord('*'))
     print(a,chr(b),chr(c), end=' ')
+f =int(input())
