@@ -1,6 +1,2 @@
-a = list(range(3))
-print(a)
-
-for i in range(1):
-    a =sum(a)
-print(a)
+r =range(1,5)
+print(r)
