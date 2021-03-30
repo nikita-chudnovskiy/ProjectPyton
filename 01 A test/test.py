@@ -1,2 +1,2 @@
-r =range(1,5)
-print(r)
+a = iter('nikita')
+print(next(a))
