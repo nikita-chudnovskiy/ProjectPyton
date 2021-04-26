@@ -1,4 +1,3 @@
-
 password = input()
 
 
@@ -7,12 +6,8 @@ def check(password):
 
     for s in password:
         if s.isdigit():
-            kool_s+=1
+            kool_s += 1
     print(kool_s)
 
+
 check(password)
-
-
-
-
-
