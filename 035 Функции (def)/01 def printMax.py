@@ -1,4 +1,4 @@
-a,b =input('введите числа ')
+a,b =map(int,input('введите числа ').split())
 
 
 def printMax(a,b):
@@ -9,5 +9,6 @@ def printMax(a,b):
     else:
         print(b,'max')
 
-
 printMax(a,b)
+
+
