@@ -1,7 +1,9 @@
+import math
+
+c,d = map(int, input('Ввести 2 числа через пробел ').split())  # ввести 2 числа
+
+def kvadrat_Chisla(a,b):
+    print('Квадрат числа',math.sqrt(a),' ',math.sqrt(b))
 
 
-def kvadrat_Chisla(a):
-    print('Квадрат числа',a,a*a)
-
-
-kvadrat_Chisla(8)
+kvadrat_Chisla(c,d)
