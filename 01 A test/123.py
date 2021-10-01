@@ -1,9 +1,7 @@
-import math
+a = ord('А')
 
-c,d = map(int, input('Ввести 2 числа через пробел ').split())  # ввести 2 числа
+for i in range(33):
+    if a <=ord('Я'):
+        print(chr(a),end=' ')
+        a+=1
 
-def kvadrat_Chisla(a,b):
-    print('Квадрат числа',math.sqrt(a),' ',math.sqrt(b))
-
-
-kvadrat_Chisla(c,d)
