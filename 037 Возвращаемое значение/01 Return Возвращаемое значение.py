@@ -3,7 +3,7 @@
 def sAndPerim(a,b):
     return a*b,2*(a+b)
 
-a =sAndPerim(2,5)
+a =sAndPerim(3,6)
 
 print(a)
 
@@ -19,4 +19,4 @@ def sqAndPer(a,b):
     mas.append(a*b)
     mas.append(2*(a+b))
     return mas
-print(sqAndPer(2,4))
+print(sqAndPer(2,6))
