@@ -1,5 +1,6 @@
-def f(*args):
-    print(args,type(args))
+
+def f(*a):
+    print(a,type(a))
 
 f(1,2,3) #
 
