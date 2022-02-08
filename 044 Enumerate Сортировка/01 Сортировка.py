@@ -13,7 +13,7 @@ for index,value in enumerate(a):
     print(index,value)
 print()
 
-for i,v in  enumerate(b,1): # Нумерация с 1
+for i,v in  enumerate(b,100): # Нумерация с 100
     print(i,v)
 
 print()
