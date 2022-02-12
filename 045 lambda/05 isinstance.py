@@ -1,12 +1,17 @@
-a = [2,3,'hi','all',5]
-stroka =''
-s =0
+a = [2,3,[3],'hi','all',[5]]
+stroka = ''
+s_list =[]
+numbers=0
 for i in a:
     if isinstance(i,str):
         stroka+=i
-    else:
-        s+=i
-print(stroka,s)
+    elif isinstance(i,list):
+        s_list=s_list+i
+    elif isinstance(i,int):
+        numbers=numbers+i
+print(stroka)
+print(s_list)
+print(numbers)
 
 
 
