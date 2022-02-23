@@ -1,12 +1,14 @@
 import random
-# a = 'adadfafsdf234235fsdfds'
-# for i in a:
-#     if i.isalpha():
-#         print(i,end='')
-# print()
-#
-# b = [i for i in a if i.isalpha()] # Проверка на цифры и перевод в int
-# print(b)
+a = 'adadfafsdf234235fsdfds'
+for i in a:
+    if i.isalpha():
+        print(i,end='')
+    elif i.isdigit():
+        print(i)
+print()
+
+b = [i for i in a if i.isalpha()] # Проверка на цифры и перевод в int
+print(b)
 
 
 
@@ -20,7 +22,7 @@ for i in c:
     print(i)
 
 print()
-a = [[random.randint(1,99) for i in range(m) ] for j in range(n)]
+a = [[random.randint(1,10) for i in range(m) ] for j in range(n)]
 
 
 for i in a:

@@ -1,8 +1,13 @@
+import random
 
-while True:
-     a = int(input())
-     if a ==5:
+
+
+for i in range(100):
+    if i ==99:
+        print(i,'sdfdsf')
         break
-     if a<6:
+    if i <20:
         continue
-     print(a)
+    print(i)
+
+
