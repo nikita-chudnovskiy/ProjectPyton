@@ -1,9 +1,9 @@
 a = [
-    ('Sidorov',1995),
-    ('Petrov',2000),
-    ('Vasilev',1988),
-    ('Voznik',2014),
-    ('Hlebov',1980),
+    ('Lidorov',1995),
+    ('Ietrov',2000),
+    ('Kasilev',1988),
+    ('Eoznik',2010),
+    ('Hlebov',2021),
     ('Slepov',2020),
 ]
 
@@ -11,6 +11,10 @@ a = [
 
 
 b =[elem for elem in a ]
+print(b)
+
+
+b =[elem[0][0] for elem in a if elem[1]<2011 ]
 print(b)
 
 

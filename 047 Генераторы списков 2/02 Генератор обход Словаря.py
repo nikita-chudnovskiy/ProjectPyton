@@ -1,10 +1,10 @@
 a ={
-    'Sidorov':{'age':1985,'hobby':'soker','car':'BMW'},
-    'Petrov':{'age':2005,'hobby':'Basketbol','car':'BMW'},
-    'Kolesnikov':{'age':2003,'hobby':'Voleybol','car':'Toyota'},
-    'Chupun':{'age':2001,'hobby':'tenis','car':'BMW'},
-    'Rizikov':{'age':2000,'hobby':'soker','car':'AUDI'},
-    'Lustrov':{'age':1987,'hobby':'tenis','car':'Opel'},
+    'Lidorov':{'age':1985,'hobby':'soker','car':'BMW'},
+    'Ietrov':{'age':2001,'hobby':'Basketbol','car':'BMW'},
+    'Kolesnikov':{'age':2002,'hobby':'Voleybol','car':'Toyota'},
+    'Ehupun':{'age':2003,'hobby':'tenis','car':'BMW'},
+    'Rizikov':{'age':2005,'hobby':'soker','car':'AUDI'},
+    'Lustrov':{'age':2008,'hobby':'tenis','car':'Opel'},
 }
 
 b =[elem for elem in a ]

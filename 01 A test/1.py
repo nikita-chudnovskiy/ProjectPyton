@@ -1,13 +1,12 @@
 import random
 
+a ={
+    'Lупкин':{'age':100},
+    'Iора':{'age':199},
+    'KВас':{'age':200},
+    'EВас':{'age':200}
 
+}
 
-for i in range(100):
-    if i ==99:
-        print(i,'sdfdsf')
-        break
-    if i <20:
-        continue
-    print(i)
-
-
+b =[elem[0] for  elem in a  ]
+print(b)
