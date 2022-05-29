@@ -1,11 +1,8 @@
-import random
+katya =100
+fedya =50
 
-a =[]
-
-for i in range(5):
-   a.append(random.randint(2,10))
-print(a)
-
+volodya =150
+print('всего сожрали толстые',katya+fedya-volodya)
 
 
 
