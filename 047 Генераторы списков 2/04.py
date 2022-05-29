@@ -1,9 +1,9 @@
 import random
 
 m =3
-n =5
+n =3
 
-a= [[random.randint(1,8)  for i in range(m)] for j in range(n)]
+a= [[random.randint(1,3)  for i in range(m)] for j in range(n)]
 
 for i in a:
     print(i)
@@ -11,7 +11,7 @@ for i in a:
 print()
 
 d =[a[i][2] for i in range(n)]
-c =[a[0][i] for i in range(m)]
+c =[a[0][i] for i in range(m) if a[0][i] ==3] # Покажет все 3
 
 
 
