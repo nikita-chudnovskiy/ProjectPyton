@@ -12,10 +12,8 @@ while True:
 
     print()
     if n == 1:
-
-        print('Понедельник:')
-        for i, value in enumerate(n1[0], 1):
-            print(i, value)
+        for i,value in enumerate(n1[0],1):
+            print( i ,value )
 
     elif n == 2:
         print('Вторник:')
@@ -34,8 +32,6 @@ while True:
         print('Пятница:')
         for i, value in enumerate(n1[4], 1):
             print(i, value)
-    elif n>=6:
-        print('нет Уроков')
     elif n == 10:
         print('End')
         break
