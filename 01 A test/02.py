@@ -1,10 +1,9 @@
 import random
 
-m =3
-n =100
+def fff(x,y):
+    return x*y
 
-a= [[random.randint(1,8)  for i in range(m)] for j in range(n)]
-d =[]
+print(fff(5,4))
 
-for i in a:
-    print(i)
+a =lambda x,y,z: x*y-z
+print(a(2,3,4))
