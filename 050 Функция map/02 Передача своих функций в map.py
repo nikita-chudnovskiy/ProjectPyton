@@ -2,19 +2,15 @@
 def kvadrat(x):
     return x**2
 
-a =kvadrat(5)
-print(a)
 
-b =[2,4,6,8] # К списку b применили фкнкцию квадрат
-
-c =list(map(kvadrat,b))
-print(c)
+print(kvadrat(5))
+b =[2,4,6]
+print(list(map(kvadrat,b)))
 
 
 f =['hello', 'dog','roma']
-
 c = list(map(len,f))
-print(c,'длинна каждой строки')
+print(c,'длинна каждой стсроки')
 print(sum(c),'Сумма всех букв')
 
 
@@ -22,3 +18,6 @@ print(sum(c),'Сумма всех букв')
 a =map(int,input().split())
 b =list(map(kvadrat,a))
 print(b)
+
+
+
