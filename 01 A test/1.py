@@ -1,24 +1,18 @@
-
-a =[('Вася',18),
-    ('Федя',19),
-    ('Васек',20)
-    ]
-
-
-
-
-b = [i for i in a if i[0].startswith('В') and i[1]<19 ]
+# def ZnacenieBolshe10(x):
+#     return x>10
+#
+#
+# a = [2,11,12,14]
+#
+# a=list(filter(ZnacenieBolshe10,a))
+# print(a)
+#
+b =[]
+c =[2,3,5,11,12,44,47]
+for i in range(len(c)):
+    if c[i]<10  or c[i]<45:
+        b.append(c[i])
 print(b)
 
-print()
-a ={
-    'Васek':{'age':19,'auto':'BMW'},
-    'Вася':{'age':17,'auto':'BMW'},
-    'ФЕДЯ':{'age':20,'auto':'Marsedes'},
-    'Коля':{'age':21,'auto':'Shkoda'},
-
-    }
-
-
-b = [(i,a[i]['auto']) for i in a if a[i]['age']>18 and a[i]['auto']=='BMW' ]
-print(b)
+a =[i for i in c if i <=10]
+print(a)
