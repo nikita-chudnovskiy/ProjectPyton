@@ -1,6 +1,6 @@
-def l(a):
+def l(x):
     n=0
-    for i in a:
+    for i in x:
       n+=1
     return n
 
