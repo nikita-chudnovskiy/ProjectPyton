@@ -22,3 +22,5 @@ a =[-2,-3,-4,5]
 c =[abs(i) for i in a]
 print(c)
 
+# список превратили в строку
+print('-'.join([str(i) for i in c]))
