@@ -8,34 +8,37 @@ n1 = [
     ['Математика', 'Чтение', 'Окр Мир', 'Музыка']
 ]
 while True:
-    n = int(input('Расписание Нажмите от 1  до 5 и Enter, 10 Выход '))
+    n = input('Расписание Выберите день недели пн-пт  от 1  до 5 и Enter, 10 Выход ')
 
     print()
-    if n == 1:
+    if n == '1':
 
         print('Понедельник:')
         for i, value in enumerate(n1[0], 1):
             print(i, value)
 
-    elif n == 2:
+    elif n == '2':
         print('Вторник:')
         for i, value in enumerate(n1[1], 1):
             print(i, value)
-    elif n == 3:
+    elif n == '3':
         print('Среда:')
         for i, value in enumerate(n1[2], 1):
             print(i, value)
 
-    elif n == 4:
+    elif n == '4':
         print('Четверг:')
         for i, value in enumerate(n1[3], 1):
             print(i, value)
-    elif n == 5:
+    elif n == '5':
         print('Пятница:')
         for i, value in enumerate(n1[4], 1):
             print(i, value)
-    elif n>=6:
+    elif n=='6':
         print('нет Уроков')
-    elif n == 10:
+    elif n=='7':
+        print('нет Уроков')
+
+    elif n =='10':
         print('End')
         break
