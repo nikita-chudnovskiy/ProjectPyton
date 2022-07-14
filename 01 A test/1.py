@@ -1,13 +1,9 @@
-def fff(a):
-    n=0
-    for i in a:
-      n+=1
-    return n
+from random import randint
 
 
-print(fff([7,4]))
-
-a ='fgdfgfdg'
-print(fff(a))
+a =int(input())
+print(type(a))
 
 
+for i in range(a):
+    print(i)
