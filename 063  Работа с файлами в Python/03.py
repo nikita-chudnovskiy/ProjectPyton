@@ -1,12 +1,9 @@
-file = open(r'TCS.txt','a+',encoding='utf-8')
-file.seek(0)
-file.write('tcs111\n')
-file.seek(0)
-print(file.read())
-file.seek(0)
+file = open(r'TCS.txt',encoding='utf-8')
+
+s =file.readlines()
+print(s)
+
+for i in s:
+    print(i,end='')
 
 
-for row in file:
-    print(row)
-
-file.close()
