@@ -27,3 +27,6 @@ for row in file:
 
 
 
+file3 =open(r'C:\Стих.txt',encoding ='utf-8') # r будет убирать все служебные символы
+for row in file3:
+    print(row)
