@@ -19,4 +19,6 @@ a =r'f\n\tj\no'
 print(a)
 print(len(a))
 
-print('C:\ \default')
+print('C:\\default')
+
+# r Будет убирать все служебные символы в этой строке
