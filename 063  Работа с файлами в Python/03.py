@@ -8,3 +8,5 @@ file.seek(0)
 
 for row in file:
     print(row)
+
+file.close()
