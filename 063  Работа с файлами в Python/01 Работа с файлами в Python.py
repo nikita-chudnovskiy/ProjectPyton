@@ -20,6 +20,7 @@ print(file2.read())
 
 file.seek(0)
 
+# Прохождение по одному символу в нашем файле
 for row in file:
     for letter in row:
         print(letter)
