@@ -6,8 +6,7 @@ import getpass
 
 ipUP=[]
 ipDown=[]
-print('Укажите путь к вашему файлу с Пк: ')
-#way =input()
+
 with open(r'C:\file.txt',encoding='utf-8') as file:
     s =file.read().splitlines()
     print(s) # Наш список пк
@@ -21,16 +20,14 @@ with open(r'C:\file.txt',encoding='utf-8') as file:
         g =' ' # для удобства разделить ip от имени
         if poteri == 0:
             IP_addres = socket.gethostbyname(name) # создали переменную IP_address проходится по нашему списку
-            user = getpass.getuser()
-            print("Host Name is:" + name)
-            print(name, "Computer IP Address is:" + IP_addres)
-            print(user)
+            print("Host Name is:",name, "Computer IP Address is:" + IP_addres)
+
             addr4 = ipaddress.ip_address(IP_addres) # addr4 показывает ip
             if addr4 in ipaddress.ip_network('192.168.2.0/24'): # Если наш ip попадает в подсеть то добовляется в список IpUP
 
-                ipUP.append(name+g+IP_addres+g+khutor+g+user)
+                ipUP.append(name+g+IP_addres)
             elif addr4 in ipaddress.ip_network('192.168.1.0/24'):
-                ipUP.append(name+g+IP_addres+g+vodniy+g+user)
+                ipUP.append(name+g+IP_addres)
 
         else:
             #print(name, 'is down!')
@@ -40,10 +37,10 @@ print(ipDown,'ip down')
 
 
 with open(r"C:\Up.txt", "w") as file:
-    print(*ipUP,  file=file,sep='\n')
+    print(*ipUP, 'khutor', file=file,sep='\n')
 
 with open(r"C:\Down.txt", "w") as file:
-    print(*ipDown, file=file,sep='\n')
+    print(*ipDown, 'Vodniy', file=file,sep='\n')
 
 
 file.close()
