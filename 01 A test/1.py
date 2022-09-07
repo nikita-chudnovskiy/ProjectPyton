@@ -1,3 +1,9 @@
-
-import ipaddress
-print(ipaddress.IPv4Address('192.168.0.1)'))
+def main_func():
+    y = 'yellow'
+    def reyn():
+        g ='green'
+        nonlocal y
+        y='eqe'
+        print(g,y)
+    reyn()
+main_func()
