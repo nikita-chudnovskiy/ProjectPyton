@@ -1,9 +1,16 @@
-def main_func():
-    y = 'yellow'
-    def reyn():
-        g ='green'
-        nonlocal y
-        y='eqe'
-        print(g,y)
-    reyn()
-main_func()
+def hello():
+    x =['hello','Vasya']
+    z =[2]
+    def verni():
+        print(x)
+    return verni
+
+    def verni1():
+        print(z)
+    verni1()
+    return verni1
+
+hello()
+
+
+
