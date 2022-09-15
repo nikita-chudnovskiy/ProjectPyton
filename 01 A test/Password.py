@@ -2,12 +2,7 @@ password = input()
 
 
 def check(password):
-    kool_s = 0
+    return len((password))
 
-    for s in password:
-        if s.isdigit():
-            kool_s += 1
-    print(kool_s)
-
-
-check(password)
+s =check(password)
+print(s)

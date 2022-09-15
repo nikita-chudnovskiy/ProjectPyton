@@ -1,21 +1,24 @@
-running =True
-while running:
-    a = int(input())
-    if a ==10:
-        print('Вы угадали')
-        running= False
-    else:
-        print('Попробуй еще')
-else:
-    print('Завершено')
+
+print('Введите пароль')
 
 
+
+count = 5
 while True:
-    a = int(input())
-    if a ==10:
+    a = input()
+
+    count -=1
+    if a =='10':
+        print(f'Ввели пароль {a} количество символов {len(a)} ')
         print('Вы угадали')
+
         break
-    else:
+    elif a!=10:
         print('Попробуй еще')
+        print('Попыток осталось',count)
+    if count<=0:
+        break
+
 else:
     print('Завершено')
+
