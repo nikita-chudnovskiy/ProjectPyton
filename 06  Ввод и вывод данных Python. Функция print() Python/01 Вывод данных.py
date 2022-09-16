@@ -1,5 +1,15 @@
 # Функция print() print(value, ..., sep=' ', end='\n')
 # Внутри функции print() нужно передать одно или несколько значений через запятую.
+
+
+a,b,c, =1,2,3
+a =b =c =3
+print(a,b,c)
+
+x,y,z =map(int,input().split())
+print(x,y,z)
+
+
 print(1234)
 print(1,2,3,4)
 print('hello',True,21)
