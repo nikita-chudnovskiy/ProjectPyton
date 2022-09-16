@@ -10,6 +10,13 @@ x,y,z =map(int,input().split())
 print(x,y,z)
 
 
+a =list(range(0,10))
+print(a)
+a =list(range(9,-1,-1))
+print(a)
+
+
+
 print(1234)
 print(1,2,3,4)
 print('hello',True,21)
