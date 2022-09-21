@@ -22,9 +22,4 @@ def say(name,surname,age):
     print('Првиет мир',name,surname,age) # наша функция отработает с 2 или 3 аргументами
 
 
-
-
-
-
-
 say('Vasya','Ivanov',30)
