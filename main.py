@@ -8,6 +8,7 @@
 #package1.a # уже нет доступа к переменной d !!!
 #package1.a # __all__ мы видем что доступ только к a
 
-from package1.file1 import  d
+import package1
 
+print(package1.a)
 
