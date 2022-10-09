@@ -1,3 +1,5 @@
+
+# как считывать данные из Exel
 import openpyxl
 
 book = openpyxl.open("2.xlsx",read_only=True)
