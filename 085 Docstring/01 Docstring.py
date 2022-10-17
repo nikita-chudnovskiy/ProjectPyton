@@ -9,7 +9,7 @@ def random_list():
     :return: a
     """
 
-    a = [random.randint(-10, 10) for i in range(10)]
+    a = [random.randint(1, 10) for i in range(10)]
     return a
 
 print(random_list())
