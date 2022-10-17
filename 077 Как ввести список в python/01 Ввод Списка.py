@@ -1,0 +1,6 @@
+a =input().split()
+print(a)
+
+
+b =list(map(int,input().split()))
+print(min(b))
