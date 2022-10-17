@@ -10,6 +10,12 @@
 
 # Так решается проблема с дефолтным значением мо мписком и словарем !
 def append_to_list(value,my_list=None):
+    """
+    Функция создает список
+    :param value:
+    :param my_list:
+    :return:
+    """
 
     if my_list is None:
         my_list=[]
