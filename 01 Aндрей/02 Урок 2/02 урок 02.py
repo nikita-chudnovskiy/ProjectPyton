@@ -1,5 +1,4 @@
-print(3)
-print('Hello')
+print(3+5)
 print(3+5)
 print(6*4)
 print(100*100/2)
