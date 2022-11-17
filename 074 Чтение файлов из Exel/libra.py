@@ -1,9 +1,10 @@
-
+import os
 # как считывать данные из Exel
 import openpyxl
 
 book = openpyxl.open("2.xlsx",read_only=True)
 a = book.active
+
 #print(a[2][0].value)
 
 # for i in range(1,a.max_row+1):
@@ -17,10 +18,23 @@ a = book.active
 # for name,year,rating in ceels:
 #     print(name.value,year.value,rating.value)
 
-
-for row in a.iter_rows(): # Если не передавать значение то выведет весь  (min_row=1,max_row=20,min_col=1,max_col=5)
+online =[]
+for row in a.iter_rows(min_row=2): # Если не передавать значение то выведет весь  (min_row=1,max_row=20,min_col=1,max_col=5)
+    printery=[]
     for cell in row:
-        print(cell.value,end =' ')
-    print()
+        cell.value
+
+
+
+
+
+
+
+
+
+
+
+
+
 # sheets_2 = book.worksheets[2] # 0,1,2 листы !!!!начинаются с 0
 # print(sheets_2["A1"].value)

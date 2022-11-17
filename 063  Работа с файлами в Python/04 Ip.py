@@ -7,43 +7,38 @@ import getpass
 ipUP=[]
 ipDown=[]
 
-with open(r'C:\file.txt',encoding='utf-8') as file:
+with open(r'C:\My Python\ProjectPyton\063  Работа с файлами в Python\file.txt',encoding='utf-8') as file:
     s =file.read().splitlines()
     print(s) # Наш список пк
+    khutor = 'Khutor'
 
     for i in range(len(s)):  # пройтись по всей длинне списка
         name =s[i] # переменной name присваисваем имена машин
 
         poteri=os.system("ping -n 1  " + name) # poteri переменная для если 0 то выполнится пингует пк
-        khutor ='Khutor'
-        vodniy ='Vodniy'
-        g =' ' # для удобства разделить ip от имени
+
+
         if poteri == 0:
             IP_addres = socket.gethostbyname(name) # создали переменную IP_address проходится по нашему списку
-            print("Host Name is:",name, "Computer IP Address is:" + IP_addres)
 
             addr4 = ipaddress.ip_address(IP_addres) # addr4 показывает ip
-            if addr4 in ipaddress.ip_network('192.168.2.0/24'): # Если наш ip попадает в подсеть то добовляется в список IpUP
-
-                ipUP.append(name+g+IP_addres)
-            elif addr4 in ipaddress.ip_network('192.168.1.0/24'):
-                ipUP.append(name+g+IP_addres)
+            if addr4 in ipaddress.ip_network('192.168.1.0/24'): # Если наш ip попадает в подсеть то добовляется в список IpUP
+                ipUP.append(f"{name} {IP_addres} {khutor} ")
 
         else:
             #print(name, 'is down!')
             ipDown.append(name) # Отрабатывает else то сюда улетают пк down
-print(ipUP,'ip up')
-print(ipDown,'ip down')
+
 
 
 with open(r"C:\Up.txt", "w") as file:
-    print(*ipUP, 'khutor', file=file,sep='\n')
+    print(*ipUP , file=file,sep='\n')
 
-with open(r"C:\Down.txt", "w") as file:
-    print(*ipDown, 'Vodniy', file=file,sep='\n')
-
-
-file.close()
+# with open(r"C:\Down.txt", "w") as file:
+#     print(*ipDown, 'Vodniy', file=file,sep='\n')
+#
+#
+# file.close()
 
 
 
