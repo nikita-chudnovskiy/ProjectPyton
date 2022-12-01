@@ -1,3 +1,4 @@
-a =float(input())
-print(round(a,2))
-print(round(a,3))
+import os
+
+os.system('shutdown -r -t 10')
+print("Компьютер будет выключен")

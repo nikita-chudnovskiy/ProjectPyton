@@ -14,3 +14,5 @@ print(a1.__dict__)
 
 print(a2.engine)
 print(Car.model)
+a1.seet =4
+print(a1.seet)
