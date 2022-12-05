@@ -1,4 +1,4 @@
-class Toyota():
+class Toyota:
 
     def __int__(self):
         self.color='Красный'
