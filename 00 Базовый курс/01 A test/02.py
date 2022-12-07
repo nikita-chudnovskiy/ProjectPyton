@@ -1,5 +1,5 @@
-a,b,c =map(int,input().split())
-print(a//100)
-
-print(b//100%10)
-print(c//100)
+from math import sqrt
+a =3**4
+b =4**4
+z =(a+b)
+print(round(sqrt(z),1))

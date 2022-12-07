@@ -3,6 +3,7 @@ a = -7
 print(abs(a))
 print(round(5.3))
 print(round(5.5))
+print(round(5.565,2)) # Округление 2 знаков после,
 
 d1,d2,d3 = map(int,input().split()) # разделяет ввод по пробелу
 
