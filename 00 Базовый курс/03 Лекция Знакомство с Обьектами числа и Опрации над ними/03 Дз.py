@@ -56,3 +56,6 @@ print(z)
 n, k = map(int, input().split())
 cn =(math.factorial(n)//(math.factorial(k)*math.factorial(n-k)))
 print(cn)
+
+# В случае с модулем math вернется число, а вот в SymPy — формула.
+# Для рендеринга математических символов в формате LaTeX код SymPy, используйте Jupyter notebook:
