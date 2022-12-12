@@ -26,23 +26,31 @@ print(s[0:4])  # 0 до 4
 print(s[0]+s[-1]) #1 и посл
 print(s[1::2]) # c 2 и через 1
 
-
+#Hlo yhn
 s ="Hello"
 s1 ="Python"
 print(s[0::2],end=" ")
 print(s1[1::2])
 
+#karba
 s = "abrakadabra"
 s= s[0:5]
 print(s[::-1])
 
 
+#Balak
 
 s ="Hello"
-
 s1 ="Balakirev"
 print(len(s))
 print(s1[0:5],end=" ")
 
+#Hello Balakirev
+#Balak
 print(s1[0:len(s)])
+#Hello Hell
+#Длина второго слова меньше первого. Из этих слов выделить символы с
+# нечетными индексами с обрезкой первого слова до длины второго.
 
+s1,s2 = input().split()
+print(s1[1:len(s2):2 ]== s2[1::2] )
