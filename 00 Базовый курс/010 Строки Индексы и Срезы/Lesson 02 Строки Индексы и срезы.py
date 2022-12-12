@@ -19,3 +19,30 @@ print(password)
 
 a = 'oajdoiajdioajfdioajfij'
 print(len(a))  # длинна
+
+s ="Balakirev"
+print(s[-3:])  # Последние 3
+print(s[0:4])  # 0 до 4
+print(s[0]+s[-1]) #1 и посл
+print(s[1::2]) # c 2 и через 1
+
+
+s ="Hello"
+s1 ="Python"
+print(s[0::2],end=" ")
+print(s1[1::2])
+
+s = "abrakadabra"
+s= s[0:5]
+print(s[::-1])
+
+
+
+s ="Hello"
+
+s1 ="Balakirev"
+print(len(s))
+print(s1[0:5],end=" ")
+
+print(s1[0:len(s)])
+
