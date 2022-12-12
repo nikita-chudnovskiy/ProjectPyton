@@ -48,3 +48,25 @@ print('Привет '*4)
 
 # Строки поддерживают unicod кодировку (utf8)
 print('привет'.encode())
+
+#hello python
+s1,s2=map(str,input().split())
+print((s1+" ")*2+(s2+" ")*3)
+
+# Переменная a = 2, переменная b = -5
+a,b =map(int,input().split())
+print("Переменная a ="+" "+str(a)+","+" переменная b ="+" "+str(b))
+
+#hello Balakirev
+s=input()
+print("Строка: "+s+". "+"Длина:"+"",len(s))
+
+#hello python
+s1,s2=map(str,input().split())
+print(s1 in s2, s1==s2, s1>s2,s1<s2)
+
+# Коды: a = 97, z = 122
+a,z = input().split()
+print("Коды: "+a+" = "+str(ord(a))+", "+z+" = "+str(ord(z)))
+
+
