@@ -15,6 +15,7 @@ print(a%b==0)
 a,b,c=map(int,input().split())
 print((a + b > c) and (a + c > b) and (c + b > a))
 
-
+# Вводится вещественное число.
+# Нужно проверить, что оно попадает или в диапазон [0; 2] или в диапазон [10; 20]
 a=float(input())
 print(a>=0 and a<=2 or a>=10 and a<=20)
