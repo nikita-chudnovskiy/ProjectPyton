@@ -30,7 +30,7 @@ print(a.rjust(3,"0"),b.rjust(3,"0"),c,sep="\n")
 
 # Сколько слов
 a="I LOve YOU".split()
-print(len(a))
+print(a,len(a))
 
 # Заменить
 s="Москва Тверь Казань"
