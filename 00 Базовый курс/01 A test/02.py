@@ -1,4 +1,4 @@
-a ="Иванов Иван Иванович".split()
-print(a)
-print(" ".join(a))
+s=input()
+print(s.replace(" ",";"))
+
 
