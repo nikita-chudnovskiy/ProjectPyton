@@ -1,4 +1,5 @@
-s=input()
-print(s.replace(" ",";"))
+a =['привет','мир']
+print(' '.join(a))
 
-
+s ='Приве тмир'
+print(''.join(s))
