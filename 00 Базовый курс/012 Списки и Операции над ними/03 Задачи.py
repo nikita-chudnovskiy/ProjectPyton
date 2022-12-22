@@ -15,11 +15,11 @@ a = [2, 4, 6, 8]
 s1 = [i * i for i in a]
 print(s1)
 
-# Убрать 20
+# Убрать 20,99,6
 spisok1 = [99, 2, 3, 20, 20, 20, 4, 5, 6]
 print(spisok1)
 
-spisok2 = [i for i in spisok1 if i != 20]
+spisok2 = [i for i in spisok1 if i != 20 and i!=99 and i!=6]
 print(spisok2)
 spisok2 = spisok2[::-1]
 print(spisok2, " Перевернули")
