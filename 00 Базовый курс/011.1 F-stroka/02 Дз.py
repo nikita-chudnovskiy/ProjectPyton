@@ -15,7 +15,9 @@ print(f"{c} {d}")
 
 a = input()
 b = input()
+print()
 c = int(input())
+print()
 d = int(input())
 print(f"г. {a}, ул. {b}, д. {c}, кв. {d}")
 

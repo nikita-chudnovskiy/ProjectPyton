@@ -1,2 +1,5 @@
-a = int(input())
-print(a)
+a = input()
+b = input()
+c =int(input())
+d: int = input()
+print(f'г. {a}, ул. {b}, д. {c}, кв. {d}')
