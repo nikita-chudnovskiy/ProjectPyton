@@ -23,5 +23,11 @@ print(spisok)
 
 # Можно записать так
 
-b = list([True,False])
+b = list(["Hello",True,False])
 print(b)
+
+a=list("python")
+print(a)
+
+# Основные методы
+print(len(a))
