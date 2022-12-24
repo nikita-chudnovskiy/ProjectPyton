@@ -28,3 +28,10 @@ print(spisok2, " Перевернули")
 # list1 = [(1,2),(7,7)]
 # for a,b in list1:
 #     print(a+b)
+
+
+a =sum(list(map(int,input().split())))
+# print(sum(a),sum(a)-sum(a)*0.13)
+print(a,"gross")
+print(a-(a*0.13),"На руки")
+print(a*0.13,"Демоны вычли")
