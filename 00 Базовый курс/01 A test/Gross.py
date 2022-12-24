@@ -1,0 +1,5 @@
+a =sum(list(map(int,input().split())))
+# print(sum(a),sum(a)-sum(a)*0.13)
+print(a,"gross")
+print(a-(a*0.13),"На руки")
+print(a*0.13,"Демоны вычли")
