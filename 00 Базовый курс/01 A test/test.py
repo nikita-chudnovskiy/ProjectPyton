@@ -18,5 +18,5 @@
 # else:
 #     print('НЕТ')
 
-t=float(input())
-print("green" if (60 - t)%5 > 2 else "red")
+a = int(input())
+if a == (60+3)
