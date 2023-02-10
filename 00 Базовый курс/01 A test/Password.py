@@ -1,8 +1,15 @@
-password = input()
+data =input()
 
 
-def check(password):
-    return len((password))
+def password(data):
+    return not(len(data) < 10 or
+            data.isdigit() or
+            data.isalpha() or
+            data.islower() or
+            data.isupper())\
+            and data.isalnum()
 
-s =check(password)
-print(s)
+print(password(data))
+
+
+
