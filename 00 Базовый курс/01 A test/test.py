@@ -1,18 +1,20 @@
 import math
 
+# i =0
+# while i <10:
+#     i += 1
+#     if i ==5:
+#         continue
+#     print(i)
 
-"""
-одноклеточная омеба делится каждые 3 часа на 2
-"""
 
 
+str = "JavaTpoint"
+i=0
+while i <len(str):
+    if str[i]=="T":
+        i += 1
+        continue
 
-l =int(input("sds"))
-
-g =0
-i = 0
-while i < l:
-    g+=1
-    print(g)
-    i+=1
-print(g)
+    print(str[i])
+    i += 1
