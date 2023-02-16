@@ -1,13 +1,18 @@
+import math
+
+
+"""
+одноклеточная омеба делится каждые 3 часа на 2
+"""
 
 
 
-total = 0
-while True:
-    n = int(input(""))
-    total+=n
-    if n == 0:
-        break
-print(total)
+l =int(input("sds"))
 
-
-
+g =0
+i = 0
+while i < l:
+    g+=1
+    print(g)
+    i+=1
+print(g)
