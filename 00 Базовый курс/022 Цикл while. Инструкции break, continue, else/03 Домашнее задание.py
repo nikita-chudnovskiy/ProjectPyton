@@ -156,6 +156,11 @@ else:
 #
 # Муму Сияние Колобок
 
+# считывание списка из входного потока
+import sys
+lst_in = list(map(str.strip, sys.stdin.readlines()))
+
+# здесь продолжайте программу (используйте список lst_in)
 
 i = 0
 while i < len(lst_in):
