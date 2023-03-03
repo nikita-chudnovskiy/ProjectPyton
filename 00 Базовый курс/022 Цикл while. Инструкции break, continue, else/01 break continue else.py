@@ -5,11 +5,10 @@ i = 0
 d =[1,2,3,4,5,6]
 print("Начало цикла")
 while i<len(d):
-    if d[i]%2==0:
-         print(d[i])
-    if d[i] ==5:
-        break
-
+    if d[i]==3:
+        i+=1
+        continue
+    print(d[i])
     i += 1
 
 
