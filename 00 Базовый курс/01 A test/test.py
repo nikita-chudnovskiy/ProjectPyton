@@ -1,7 +1,16 @@
 import math
-n, i = int(input()), 1
-while True:
-    if i ** 2 > n:
-        print(i)
-        break
+n =int(input("Введите"))
+
+i=1
+while i<n:
+
     i += 1
+
+    if i ==2:
+        print("Попробуйте еще")
+        continue
+    print(i)
+
+
+
+
