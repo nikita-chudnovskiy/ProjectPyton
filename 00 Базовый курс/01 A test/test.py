@@ -1,16 +1,7 @@
-import math
-n =int(input("Введите"))
-
-i=1
-while i<n:
-
-    i += 1
-
-    if i ==2:
-        print("Попробуйте еще")
-        continue
-    print(i)
-
-
-
-
+n = int(input('введите число '))
+i =1
+while i<=n:  # i<=n//2  В 2 РАЗА БЫСТРЕЕ
+    if n%i==0:#  выводим все числа без остатка
+        print(i,end=' ') # отменили перенос
+    i+=1
+print()
