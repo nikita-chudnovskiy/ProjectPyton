@@ -1,6 +1,10 @@
-n = int(input())                    # Ввод целого числа
-total = 0
-for i in range(n):                  # Перебор чисел до n
-    if i % 3 == 0 or i % 5 == 0:    # Поиск чисел кратных 3 и 5
-        total += i                  # Суммирование кратных чисел 3 и 5
-print(total)
+
+s=input().lower()
+
+if not 'ра' in s:
+    print(-1)
+else:
+    for i in range(len(s)):
+        if s[i]=='р' and s[i+1]=='а':
+            print(i,end=' ')
+
