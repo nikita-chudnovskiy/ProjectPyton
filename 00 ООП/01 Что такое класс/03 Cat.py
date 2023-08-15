@@ -16,6 +16,6 @@ print(cat1.go())
 cat1.name ='Бытряк'
 cat1.poroda ='Sibirskiy'
 cat1.age=10
-print(Cat.name)
+print(cat1)
 
 
