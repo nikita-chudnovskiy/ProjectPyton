@@ -1,9 +1,21 @@
 
 class Point:
-    def __init__(self, x, y): # Можжно ghbcdjbnm x= 0 н = 0
+
+    color ='red'
+    circle = 2
+    def __init__(self, x=0, y=0): # Можжно создать без аргументов будет тк x= 0 y = 0
         self.x = x
         self.y = y
 
+    def __del__(self):
+        return print('Удаление '+ str(self))
+    def set_cords(self, x, y):
+        self.x = x
+        self.y = y
 
-p1 = Point(1,2)# если  выше присвоить x = 0 y = 0 b и не задать Point() будут 0
-print(p1.__dict__)
+    def get_cords(self):
+        return (self.x,self.y)
+
+pt =Point()
+print(pt.__dict__)
+
