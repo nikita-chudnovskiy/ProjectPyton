@@ -16,6 +16,6 @@ class Point:
     def get_cords(self):
         return (self.x,self.y)
 
-pt =Point()
+pt =Point(1,2)
 print(pt.__dict__)
 
