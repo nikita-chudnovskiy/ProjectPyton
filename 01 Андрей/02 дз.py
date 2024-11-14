@@ -40,5 +40,5 @@ if a >=10 and a <=20:
     print('Прохладно')
 if a >=21 and a <=30:
     print('Тепло')
- if a >=31:
+if a >=31:
      print('Жарко')
