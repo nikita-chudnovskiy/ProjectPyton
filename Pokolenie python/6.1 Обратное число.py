@@ -1,3 +1,6 @@
 # Формула 1/n
 n = float(input())
-print(1 / n)
+if n == 0:
+    print('Обратное число не существует')
+else:
+    print(1 / n)
