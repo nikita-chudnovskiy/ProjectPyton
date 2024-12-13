@@ -16,6 +16,7 @@ while True:
          a = randint(1, 10)
          b = randint(ord('A'), ord('z'))
          c = randint(ord('#'), ord('*'))
-         print(a, chr(b), chr(c), end='', sep='')
+         print(a, chr(b), chr(c), end='', sep=' ')
+         count += 1
     if count ==5:
         break
