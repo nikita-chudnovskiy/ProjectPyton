@@ -43,14 +43,9 @@
 #         c.append(i)
 # print(b,c)
 
-# a = [1,2,3,4,5]
-# s = []
-# for i in a:
-#     if i < 4:
-#         s.append(i)
-# print(s)
-
-b = [1,3,4,2]
-d = [5,10,20,6]
-f = b+d
-print(sorted(f))
+a = [1,2,3,4,5]
+s = []
+for i in a:
+    if i < 4:
+        s.append(i)
+print(s)
