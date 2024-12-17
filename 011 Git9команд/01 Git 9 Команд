@@ -1,5 +1,9 @@
 # git clone https://github.com/nikita-chudnovskiy/ProjectPyton.git # Путь где хран наш проект
-which git Найти где - обычно на mac /usr/bin/git
 
-# git commit -m "fix" # Передать новую версию файла 2 11
+# git add.              # Для нужных файлов 
+# git commit -m "fix"   # Передать новую версию файла 2 11
 ######
+
+
+
+which git Найти где - обычно на mac /usr/bin/git
