@@ -15,8 +15,9 @@
 
 
 
-test test test
-
+888888
+999999
+100000
 
 
 which git Найти где - обычно на mac /usr/bin/git
