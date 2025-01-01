@@ -18,8 +18,4 @@
 
 
 
-
-
-
-
 # which git Найти где - обычно на mac /usr/bin/git
