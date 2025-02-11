@@ -1,3 +1,6 @@
+import fastapi
+
+
 n = int(input())
 x1 = 1
 x2 = 1
